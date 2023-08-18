@@ -7,7 +7,7 @@ The regular expression implemented in this application is designed to meet the s
 ### Information on how to run the developed application locally:
 
 1. Clone the repository using the command: git clone https://github.com/ashari0/AI-USE-CASE-3.git
-2. Go to the project directory: cd AI-USE-CASE-3
+2. Go to the project directory: .\AI-USE-CASE-3\ai-use-case-3\
 3. Install the necessary packages using the command: npm install
 4. Start the application: npm start
 5. Open your web browser and navigate to: http://localhost:3000
