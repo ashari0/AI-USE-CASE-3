@@ -1,0 +1,44 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(213, 167, 255);
+}
+* {
+  box-sizing: border-box;
+}
+
+button {
+  margin-bottom:15px;
+  width:250px;
+  height:30px;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  width: 600px;
+  max-width:80%;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+p {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: rgb(201, 0, 0);
+}

@@ -1,6 +1,6 @@
 import { MAX_LENGTH } from "./constants";
 
-const validateString = (str, maxLength) =>  {
+export const validateString = (str, maxLength) =>  {
     const specialChars = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
     const regex = new RegExp(
       `^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[${specialChars}])[A-Za-z\\d${specialChars}]{1,${maxLength}}$`
