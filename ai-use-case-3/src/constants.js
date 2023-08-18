@@ -1,1 +1,1 @@
-export const MAX_VALUE = 50;
+export const MAX_LENGTH = 50;
