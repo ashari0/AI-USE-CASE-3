@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import { MAX_VALUE } from "./constants";
+
+function validateString(str, maxLength) {
+  const specialChars = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
+  const regex = new RegExp(
+    `^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[${specialChars}])[A-Za-z\\d${specialChars}]{1,${maxLength}}$`
+  );
+
+  return regex.test(str);
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div></div>
   );
 }
 
